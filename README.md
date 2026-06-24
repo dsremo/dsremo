@@ -8,7 +8,7 @@ M.Sc. in Mathematics & Computing (BIT Mesra).
 - 🛰️ Building **ARIA** — an onboard AI architecture for spacecraft (a constitution above the model, an independent monitor, sealed boot, 19 failsafes)
 - 🤖 LLMs/RAG, NLP, PyTorch — and getting them to production, not just a notebook
 - ☁️ End-to-end: FastAPI/Spring backends, AWS serverless (Lambda, Step Functions, ECS), Cloudflare, Docker
-- 📫 [LinkedIn](https://www.linkedin.com/in/ashutosh-tiwari-495567203/) · ashutosh108t@gmail.com
+- 🌐 [ashutosh.dsremo.com](https://ashutosh.dsremo.com) · [LinkedIn](https://www.linkedin.com/in/ashutosh-tiwari-495567203/) · ashutosh108t@gmail.com
 
 ### 🌐 Live & deployed
 
