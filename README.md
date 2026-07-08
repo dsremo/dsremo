@@ -1,38 +1,39 @@
 # Hi, I'm Ashutosh Tiwari 👋
 
-AI/ML Engineer at **Simplotel**, where I ship LLM and voice products to real users — a chatbot,
-voicebot, and call analyzer, plus a Google Ads integration that lifted booking conversions 30%.
-On the side I build an independent, safety-first space-AI stack under [dsremo](https://dsremo.com).
-M.Sc. in Mathematics & Computing (BIT Mesra).
+**Software Engineer · Backend + AI/ML · Bangalore, India**
 
-- 🛰️ Building **ARIA** — an onboard AI architecture for spacecraft (a constitution above the model, an independent monitor, sealed boot, 19 failsafes)
-- 🤖 LLMs/RAG, NLP, PyTorch — and getting them to production, not just a notebook
-- ☁️ End-to-end: FastAPI/Spring backends, AWS serverless (Lambda, Step Functions, ECS), Cloudflare, Docker
-- 🔒 Application & cloud security — VAPT remediation, secure code review (OWASP Top 10), and cloud-posture hardening (CNAPP, UpGuard)
-- 🌐 [ashutosh.dsremo.com](https://ashutosh.dsremo.com) · [LinkedIn](https://www.linkedin.com/in/ashutosh-tiwari-495567203/) · ashutosh108t@gmail.com
+> `dsremo` is my personal handle — this org holds my side projects.
+> Portfolio → **[ashutosh.dsremo.com](https://ashutosh.dsremo.com)** · [Résumé (PDF)](https://ashutosh.dsremo.com/Ashutosh_Tiwari_Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/ashutosh-tiwari-495567203/) · ashutosh108t@gmail.com
 
-### 🌐 Live & deployed
+I'm a software engineer at **Simplotel** building production systems for a hotel-commerce platform — a Google Ads integration that lifted booking conversions **30%**, AI customer-engagement products (chatbot, voicebot, call analyzer) that raised international-client engagement **20%**, and AWS serverless automation that removed **~260** recurring support tickets a year. On my own time I design, deploy, and *operate* the live services below. M.Sc. in Mathematics & Computing (BIT Mesra).
 
-I run a small fleet of services on my own domain (AWS S3/CloudFront + Cloudflare Workers + SES):
+- 🤖 LLMs/RAG, NLP, PyTorch — and getting them into production
+- ☁️ End-to-end: FastAPI backends, AWS serverless (Lambda, Step Functions, ECS), Cloudflare Workers, Docker
+- 🔒 Application & cloud security — VAPT remediation, secure code review (OWASP Top 10), cloud-posture hardening
+- 🛰️ **ARIA** — a design study for a safety-first AI control architecture (a policy layer evaluated independently of the model, a runtime monitor, fail-closed defaults), explorable as an interactive lab
 
-- [**dsremo.com**](https://dsremo.com) — brand site (Next.js, static-hosted on S3 behind Cloudflare)
-- [**auth.dsremo.com**](https://auth.dsremo.com) — a custom OAuth/SSO service (Cloudflare Worker) that powers single sign-on across the dsremo apps
-- [**apps.dsremo.com**](https://apps.dsremo.com) — catalog of privacy-respecting Android apps
-- [**markdown.dsremo.com**](https://markdown.dsremo.com) — live markdown editor & preview
-- [**learn.dsremo.com**](https://learn.dsremo.com) — a C++ interview-prep study app
+### 🌐 Live & operating
 
-### 🛠️ Things I've built
+Services I run on my own domain (AWS S3/CloudFront · Cloudflare Workers · SES):
 
-| Project | What it does |
+- [**pay.dsremo.com**](https://pay.dsremo.com) — payment-orchestration service: idempotency, an enforced state machine, HMAC signature verification, webhooks, refunds
+- [**telemetry.dsremo.com**](https://telemetry.dsremo.com) — satellite-telemetry anomaly detection: an LSTM/TCN ensemble, evaluated on public ISS/ESA/SKAB benchmarks
+- [**sanitize.dsremo.com**](https://sanitize.dsremo.com) — SanitizeMe: find your exposed data and auto-generate DPDP/GDPR/CCPA opt-out letters for 225 brokers
+- [**aria.dsremo.com**](https://aria.dsremo.com) — ARIA: the safety-architecture design study, as an interactive browser lab
+- [**auth.dsremo.com**](https://auth.dsremo.com) — a custom OAuth/SSO service (Cloudflare Worker) powering single sign-on across the dsremo apps
+- [**apps.dsremo.com**](https://apps.dsremo.com) · [**markdown.dsremo.com**](https://markdown.dsremo.com) · [**learn.dsremo.com**](https://learn.dsremo.com)
+
+### 🛠️ Selected repos
+
+| Project | What it is |
 |---|---|
-| [**ARIA**](https://github.com/dsremo/aria) | Autonomous, safety-first onboard AI for spacecraft — source-available, perpetual licence |
-| [**Sanitize Me**](https://github.com/dsremo/sanitize-me) | Finds your exposed email/phone/username online and auto-generates DPDP/GDPR/CCPA opt-out letters for 200+ data brokers |
-| [**MediScan**](https://github.com/dsremo/mediscan) | Offline AI medical-triage assistant running an on-device LLM for low-connectivity areas |
-| [**Stock Market RAG Bot**](https://github.com/dsremo/stock-market-tool) | WhatsApp bot answering market questions in English / Hindi / Hinglish — FastAPI + Spring + RAG over daily market data |
-| [**Are You Safe?**](https://github.com/dsremo/are-you-safe) | Daily safety check-in app — miss a day and your emergency contacts get alerted (React Native + AWS Lambda) |
-| [**Telemetry Anomaly Detection**](https://github.com/dsremo/telemetry-anomaly-detection) | Detecting anomalies in spacecraft / sensor telemetry streams |
+| [**pay-service**](https://github.com/dsremo/pay-service) | Payment orchestrator — gateway-adapter layer (Razorpay), idempotency, state machine, HMAC, refunds; FastAPI + a Cloudflare Workers edge twin |
+| [**telemetry-anomaly-detection**](https://github.com/dsremo/telemetry-anomaly-detection) | Satellite-telemetry anomaly detection — LSTM/TCN ensemble, ops dashboard, SSO; benchmarked on ISS/ESA/SKAB |
+| [**sanitizeme**](https://github.com/dsremo/sanitizeme) | SanitizeMe — find exposed email/phone/usernames + auto-generate GDPR/DPDP/CCPA opt-out letters (225 brokers) |
+| [**aria**](https://github.com/dsremo/aria) | ARIA — a safety-first AI control architecture design study (source-available) |
+| [**mediscan**](https://github.com/dsremo/mediscan) | MediScan — offline, on-device symptom-information prototype for low-connectivity areas (educational, not diagnostic) |
+| [**are-you-safe**](https://github.com/dsremo/are-you-safe) | Daily safety check-in — miss a day and your emergency contacts get alerted (React Native + AWS Lambda) |
 
 ### Stack
 
-`Python` `Java` `C/C++` `SQL` `TypeScript` · `PyTorch` `Hugging Face` `LLMs / RAG` `NLP`
-`scikit-learn` · `FastAPI` `Spring` `AWS` `Cloudflare Workers` `Docker` · `PostgreSQL` `MongoDB` `BigQuery`
+`Python` `Java` `C/C++` `SQL` `TypeScript` · `PyTorch` `Hugging Face` `LLMs / RAG` `NLP` `scikit-learn` · `FastAPI` `Django` `AWS` `Cloudflare Workers` `Docker` · `PostgreSQL` `MongoDB` `BigQuery`
